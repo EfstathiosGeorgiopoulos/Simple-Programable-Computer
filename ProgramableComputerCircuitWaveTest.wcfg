@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Stathis/Desktop/Logic Gates Examples/VHDL programms/SimplComputerVer1/com_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="com" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/com/clkraw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkraw</obj_property>
+      <obj_property name="ObjectShortName">clkraw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/com/output" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output[7:0]</obj_property>
+      <obj_property name="ObjectShortName">output[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/com/command" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">command[15:0]</obj_property>
+      <obj_property name="ObjectShortName">command[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/com/instructionregistertocontrolunit" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instructionregistertocontrolunit[7:0]</obj_property>
+      <obj_property name="ObjectShortName">instructionregistertocontrolunit[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/com/busout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">busout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">busout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/com/registeratoalu" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">registeratoalu[7:0]</obj_property>
+      <obj_property name="ObjectShortName">registeratoalu[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/com/registerbtoalu" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">registerbtoalu[7:0]</obj_property>
+      <obj_property name="ObjectShortName">registerbtoalu[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/com/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/com/clkrev" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkrev</obj_property>
+      <obj_property name="ObjectShortName">clkrev</obj_property>
+   </wvobject>
+   <wvobject fp_name="/com/eninregfromcpu" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">eninregfromcpu</obj_property>
+      <obj_property name="ObjectShortName">eninregfromcpu</obj_property>
+   </wvobject>
+</wave_config>
