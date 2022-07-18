@@ -29,14 +29,14 @@ int data_0[] = {
   MI|CO,  RO|II|CE,  0,      	0,      0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0000 - NOP
   MI|CO,  RO|II|CE,  IO|MI,  	RO|AI,  0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0001 - LDA
   MI|CO,  RO|II|CE,  IO|MI,  	RO|BI,  EO|AI|FI,  	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0010 - ADD
-  MI|CO,  RO|II|CE,  IO|MI,  	RO|BI,  EO|AI|SU|FI,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0011 - SUB
+  MI|CO,  RO|II|CE,  IO|MI,  	RO|BI,  EO|AI|SU|FI,    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0011 - SUB
   MI|CO,  RO|II|CE,  IO|MI,  	AO|RI,  0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0100 - STA
   MI|CO,  RO|II|CE,  IO|AI,  	0,      0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0101 - LDI
   MI|CO,  RO|II|CE,  IO|J,   	0,      0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0110 - JMP
   MI|CO,  RO|II|CE,  0,      	0,      0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0111 - JC
   MI|CO,  RO|II|CE,  0,      	0,      0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 1000 - JZ
   MI|CO,  RO|II|CE,  0,      	0,      0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 1001
-  MI|CO,  RO|II|CE,  0,    		0, 	 	0,      	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 1010
+  MI|CO,  RO|II|CE,  0,    	0, 	0,      	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 1010
   MI|CO,  RO|II|CE,  EO|SU|OI,  0,      0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 1011 - SUBOUT
   MI|CO,  RO|II|CE,  EO|OI,  	0,      0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 1100 - ADDOUT
   MI|CO,  RO|II|CE,  0,      	0,      0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 1101
@@ -47,8 +47,8 @@ int data_0[] = {
 int data_1[] = {
   MI|CO,  RO|II|CE,  0,      	0,      0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0000 - NOP
   MI|CO,  RO|II|CE,  IO|MI,  	RO|AI,  0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0001 - LDA
-  MI|CO,  RO|II|CE,  IO|MI,  	RO|BI,  EO|AI|FI,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0010 - ADD
-  MI|CO,  RO|II|CE,  IO|MI,  	RO|BI,  EO|AI|SU|FI,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0011 - SUB
+  MI|CO,  RO|II|CE,  IO|MI,  	RO|BI,  EO|AI|FI,       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0010 - ADD
+  MI|CO,  RO|II|CE,  IO|MI,  	RO|BI,  EO|AI|SU|FI,    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0011 - SUB
   MI|CO,  RO|II|CE,  IO|MI,  	AO|RI,  0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0100 - STA
   MI|CO,  RO|II|CE,  IO|AI,  	0,      0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0101 - LDI
   MI|CO,  RO|II|CE,  IO|J,   	0,      0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0110 - JMP
@@ -67,7 +67,7 @@ int data_2[] = {
   MI|CO,  RO|II|CE,  0,      	0,      0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0000 - NOP
   MI|CO,  RO|II|CE,  IO|MI,  	RO|AI,  0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0001 - LDA
   MI|CO,  RO|II|CE,  IO|MI,  	RO|BI,  EO|AI|FI, 	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0010 - ADD
-  MI|CO,  RO|II|CE,  IO|MI,  	RO|BI,  EO|AI|SU|FI,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0011 - SUB
+  MI|CO,  RO|II|CE,  IO|MI,  	RO|BI,  EO|AI|SU|FI,    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0011 - SUB
   MI|CO,  RO|II|CE,  IO|MI,  	AO|RI,  0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0100 - STA
   MI|CO,  RO|II|CE,  IO|AI,  	0,      0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0101 - LDI
   MI|CO,  RO|II|CE,  IO|J,   	0,      0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0110 - JMP
@@ -85,8 +85,8 @@ int data_2[] = {
 int data_3[] = {
   MI|CO,  RO|II|CE,  0,      	0,      0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0000 - NOP
   MI|CO,  RO|II|CE,  IO|MI,  	RO|AI,  0,        	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0001 - LDA
-  MI|CO,  RO|II|CE,  IO|MI,  	RO|BI,  EO|AI|FI,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0010 - ADD
-  MI|CO,  RO|II|CE,  IO|MI,  	RO|BI,  EO|AI|SU|FI,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0011 - SUB
+  MI|CO,  RO|II|CE,  IO|MI,  	RO|BI,  EO|AI|FI,   	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0010 - ADD
+  MI|CO,  RO|II|CE,  IO|MI,  	RO|BI,  EO|AI|SU|FI,	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0011 - SUB
   MI|CO,  RO|II|CE,  IO|MI,  	AO|RI,  0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0100 - STA
   MI|CO,  RO|II|CE,  IO|AI,  	0,      0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0101 - LDI
   MI|CO,  RO|II|CE,  IO|J,   	0,      0,         	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   // 0110 - JMP
